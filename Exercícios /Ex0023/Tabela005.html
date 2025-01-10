@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Colunas personalizadas</title>
+    <style>
+        
+        body {
+            font-family: Arial, helvetica, sans-serif ;
+        }
+        
+        caption{
+            font-size: 1.5em;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+        
+        
+        
+        td,th{
+            border: 2px solid black;
+        }
+        
+        
+        .cnome{
+            background-color: lightblue;
+            
+        }
+        
+        .csexo{
+            background-color: lightcoral;
+        }
+        
+        .cidade{
+            background-color: lavender;
+        }
+        
+        .cprof{
+            background-color: lightpink;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+            
+        </colgroup>
+        
+        
+        
+        <caption>
+            Cadastro
+        </caption>
+        
+        <thead>
+           <tr>
+               
+               <th>Nome</th>
+               <th>Sexo</th>
+               <th>Idade</th>
+               <th>Profissão</th>
+               
+               
+               
+           </tr> 
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td> Feminino</td>
+                <td> 32</td>
+                <td> Castradora</td>
+                
+                
+                
+                
+            </tr>
+            
+            <tr>
+                <td>Cláudio</td>
+                <td> Masculino</td>
+                <td> 22</td>
+                <td> engenheiro</td>
+                
+                
+                
+                
+            </tr>
+            
+            <tr>
+                <td>Gustavo</td>
+                <td> Masculino</td>
+                <td> 33</td>
+                <td> Professor</td>
+                
+                
+                
+                
+            </tr>
+            
+            <tr>
+                <td>Hélio</td>
+                <td> Masculino</td>
+                <td> 55</td>
+                <td> Office boy</td>
+                
+                
+                
+                
+            </tr>
+            
+            <tr>
+                <td>Maria</td>
+                <td> Feminino</td>
+                <td> 23</td>
+                <td> Job</td>
+                
+                
+                
+                
+            </tr>
+            
+            <tr>
+                <td>Otávio</td>
+                <td> Masculino</td>
+                <td> 78</td>
+                <td> Dono da Obra</td>
+                
+                
+                
+                
+            </tr>
+            
+            
+            
+        </tbody>
+        
+        
+        
+    </table>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela Com Dados Reais</title>
+    <style>
+        
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #80ffff40;
+        }
+        
+        table{
+            width: 700px;
+            border-collapse: collapse;
+            text-align: left;
+            margin: auto;
+            
+        }
+        
+        caption{
+            background-color: lightslategray;
+            
+            font-size: 1.5em;
+            padding: 8px;
+        }
+        
+        th{
+            text-align: center;
+            
+        }
+        
+        .Cabecalho{
+            background-color: darkorange;
+            font-size: 1.2em;
+        }
+        
+        .mulher{
+            background-color: skyblue;
+        }
+        
+        .Homem{
+            background-color: lightcoral;
+            color: white;
+            text-shadow: 2px 1px 0px black;
+            
+        }
+        
+    
+        
+        td, Thead, th{
+            border: 1px solid black;
+            padding: 5px;
+            
+            
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+        
+        
+        
+        <caption>Filmes Favoritos</caption>
+        <thead>
+    
+          <tr class="Cabecalho">
+              <th scope="col">Grupo</th>
+              <th scope="col">Nomes</th>
+              <th scope="col" colspan="4">Filmes</th>
+              
+          </tr>
+          
+          
+            
+        </thead>
+        
+        
+        
+        <tbody>
+            
+            <tr class="mulher">
+                <th rowspan="3">Mulheres</th>
+                 <td>
+                        Ana Maria Santos
+                    </td>
+                    
+                    <td>Alien</td>
+                    <td>Rambo</td>
+                    <td>Vingadores</td>
+                </tr>
+                
+                
+            <tr class="mulher">
+                
+                <td>Beatriz souza</td>
+                <td>Hulk</td>
+                <td>inception</td>
+                <td>Batman</td>
+              
+            </tr>
+            
+            <tr class="mulher">
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+                
+            </tr>
+            
+            <tr class="Homem">
+                <th rowspan="3">Homens</th>
+               <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+              
+             
+            </tr>
+            
+            
+            
+            
+            <tr class="Homem">
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            
+            <tr class="Homem">
+                <td>Fabiano Mota</td>
+                <td>Star wars 5</td>
+                <td>Taxi driver</td>
+                <td>Toy Story</td>
+            </tr>
+            
+        </tbody>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </table>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Alinhamento de fundo</title>
+    
+    <style>
+        
+        #container{
+            background-image: url('Imagens/target001.png');
+            background-size: 100% 100%;
+            
+            position: relative;
+            height:96vh;
+            background-color: lightseagreen;
+            padding: 10px;
+        }
+        
+        #conteudo{
+            background-image: url('Imagens/target001.png');
+            position: absolute;
+            height: 200px;
+            width: 500px;
+            background-color: skyblue;
+            background-size: 100% 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-90%,+50%);
+            
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            
+        </article>
+        
+    </section>
+</body>
+</html>

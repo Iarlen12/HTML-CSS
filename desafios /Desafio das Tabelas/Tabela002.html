@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 2 dad Tabelas</title>
+    <style>
+        
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #55c1ff69;
+        }
+        
+        table{
+            width: 700px;
+            border-collapse: separate;
+        }
+        
+        .linha1{
+           background-color: skyblue;
+           
+           
+        }
+        
+        #dado1{
+            background-color:lightcoral;
+           
+        }
+        #dadoN{
+            background-color: yellowgreen;
+            
+        }
+        
+        .Coluna{
+            background-color: lavender;
+            
+        }
+        
+        
+        td{
+            border: 2px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+        
+       <tr class="linha1">
+           <td colspan="4">A</td>
+           <td rowspan="4">B</td>
+       </tr> 
+       <tr class="Coluna">
+           <td  id="dado1"rowspan="4">C</td>
+           <td>D</td>
+           <td>E</td>
+           <td>F</td>
+       </tr> 
+       
+        <tr class="Coluna">
+           <td>G</td>
+           <td>H</td>
+           <td>I</td>
+       </tr> 
+       
+       <tr class="Coluna">
+           <td>J</td>
+           <td>L</td>
+           <td>M</td>
+       </tr> 
+       
+       <tr>
+           <td id="dadoN" colspan="4">N</td>
+       </tr>
+        
+        
+        
+    </table>
+</body>
+</html>
