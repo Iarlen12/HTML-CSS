@@ -27,7 +27,7 @@ section{
 }
 
 .flor{
-    background: #bd8c1052 url("imagens/background001.jpg")
+    background: #bd8c1052 url('imagens/background001.jpg')
     right bottom/cover no-repeat fixed;
     height: 50vh;
     margin: 150px 0 150px 0;
@@ -46,7 +46,7 @@ section{
 
 
 .Papel{
-    background: #ff931555 url("Imagens/background002.jpg") center center/cover no-repeat fixed;
+    background: #ff931555 url('Imagens/background002.jpg') center center/cover no-repeat fixed;
     color: white;
     height: 50vh;
     box-shadow:inset 10px 0px 10px #000000e0;
