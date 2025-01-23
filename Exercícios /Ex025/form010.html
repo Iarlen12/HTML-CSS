@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>formulário</title>
+  
+   <style>
+   
+
+   body{
+     font-family: Arial, Helvetica, sans-serif;
+   }
+  
+    
+    
+    #button{
+      margin:10px;
+      padding: 10px;
+      background: #4AFF72;
+      color:black;
+      width: 3cm;
+      height: 1cm;
+      border:1px solid blue;
+      box-shadow: 2px 2px 6px #7E88FF;
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+            <form action="Cadastro.php" method="get" autocomplete="on">
+            
+           <fieldset>
+             
+             
+                        <p>
+              <label for="iano">Em que ano você nasceu?</label>
+             <input type="number" name="ano" id="iano" min="1900" max="2020" value="2000" oninput="calcIdade()">
+          
+           </p>
+          
+           <p>
+             <label for="iidade">Sua idade é:</label>
+             <output id="iidade">0</output>
+           </p>
+          
+          
+          
+           <p>
+             <input type="submit" value="Enviar" id="button">
+             <input type="reset" value="Limpar" id="button">
+           </p>
+             
+           </fieldset>
+            
+          </form>
+          
+          <script>
+            function calcIdade(){
+              let atual = new Date().getFullYear()
+              iidade.innerHTML = Number(atual) - Number(iano.value)
+            }
+            
+          </script>
+          
+</body>
+
+</html>
